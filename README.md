@@ -16,3 +16,5 @@ when first throw is 10, than count a strike,
 or if second throw add with first throw is
 10, than count a spare.
 
+Implement with $.fn object (js/jquery-fn.js)
+as $.fn.BOWLING. 
