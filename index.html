@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Simple Bowling Client</title>
+<link href="css/default.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8" />
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="js/jquery-fn.js"></script>
+<script type="text/javascript">
+/**
+* NAMESPACE for all global vars
+**/
+var GLOBAL_VARS = {
+    siteurl:'',
+    bowling_max_fields:10,
+    app:{
+        module:{
+            scorecard:null
+        },
+        configs:{
+            scorecard:{
+                itemcss:'scorecard-box',
+                itemlablecss:'scorecard-box-lable',
+                itemleftcss:'scorecard-box-topitem-l',
+                itemextracss:'scorecard-box-topitem-x',
+                itemrightcss:'scorecard-box-topitem-r',
+                itemoutputcss:'scorecard-box-output',
+                maxframe:10
+            }
+        }
+    }
+};
+/**
+* INIT $.fn objects
+**/
+$(document).ready(function(){
+    GLOBAL_VARS.app.module.scorecard = $('#scorecard').BOWLING( GLOBAL_VARS.app.configs.scorecard );  
+});
+</script>
+</head>
+<body>
+<div id="scorecard"></div>
+</body>
+</html>

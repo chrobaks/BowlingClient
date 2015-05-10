@@ -1,0 +1,17 @@
+* {padding: 0px;margin:0px;font-family: Verdana;font-size: 11px;}
+body {padding: 10px;}
+.scorecard-box {float:left;width: 100px;height: 120px;margin-right: 1px;background-color: #fff;border:1px solid blue;display: none;}
+.scorecard-box.large {float:left;width: 150px;height: 120px;margin-right: 1px;background-color: #fff;border:1px solid blue;display: none;}
+.scorecard-box.active {display: block;}
+.scorecard-box-topitem-l {float:left;width: 49px;height: 50px;border-right:1px solid blue;}
+.scorecard-box-topitem-x {float:left;width: 49px;height: 50px;border-left:1px solid blue;display: none;}
+.scorecard-box-topitem-r {float:left;width: 49px;height: 50px;}
+.scorecard-box-output {clear:left;width: 100px;height: 50px;border-top:1px solid blue;}
+.scorecard-box-lable {width: 100px;height: 17px;padding-top:3px;background-color: blue;color: #fff;text-align: center;font-weight: bold;}
+.scorecard-box-topitem-l input , .scorecard-box-topitem-x input, .scorecard-box-topitem-r input {width: 40px;height: 40px;margin-left:5px;text-align: center;}
+.scorecard-box-output input {width: 80px;height: 40px;margin-left:10px;text-align: center;background-color: blue;color: #fff;border: 0px;}
+.scorecard-box.large .scorecard-box-output {clear:left;width: 150px;height: 50px;border-top:1px solid blue;}
+.scorecard-box.large .scorecard-box-lable {width: 150px;height: 17px;padding-top:3px;background-color: blue;color: #fff;text-align: center;font-weight: bold;}
+.scorecard-box.large .scorecard-box-output input {width: 120px;height: 40px;margin-left:10px;text-align: center;background-color: blue;color: #fff;border: 0px;}
+.clearL {clear:left;}
+p.counts,p.descr {padding: 3px;font-weight: bold;}
